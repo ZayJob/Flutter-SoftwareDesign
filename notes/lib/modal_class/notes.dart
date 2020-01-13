@@ -40,7 +40,7 @@ class Note {
   }
 
   set color(int newColor) {
-    if (newColor >= 0 && newColor <= 9) {
+    if (newColor >= 0 && newColor <= 2) {
       this._color = newColor;
     }
   }
@@ -49,7 +49,6 @@ class Note {
     this._date = newDate;
   }
 
-  // Convert a Note object into a Map object
   Map<String, dynamic> toMap() {
     var map = Map<String, dynamic>();
     if (id != null) {
@@ -64,7 +63,6 @@ class Note {
     return map;
   }
 
-  // Extract a Note object from a Map object
   Note.fromMapObject(Map<String, dynamic> map) {
     this._id = map['id'];
     this._title = map['title'];

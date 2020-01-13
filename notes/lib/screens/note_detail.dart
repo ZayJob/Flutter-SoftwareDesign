@@ -257,7 +257,6 @@ class NoteDetailState extends State<NoteDetail> {
     note.description = descriptionController.text;
   }
 
-  // Save data to database
   void _save() async {
     moveToLastScreen();
 

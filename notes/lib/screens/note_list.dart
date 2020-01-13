@@ -169,7 +169,6 @@ class NoteListState extends State<NoteList> {
     );
   }
 
-  // Returns the priority color
   Color getPriorityColor(int priority) {
     switch (priority) {
       case 1:
