@@ -1,6 +1,6 @@
 # Flutter_SoftwareDesign
 
-##1. Numbers Mason, what do they mean?
+## 1. Numbers Mason, what do they mean?
 * Create 'Calculator' app.
 * Application should have two modes: basic and scientific (see, well, any calculator for reference).
 * Modes can be toggled via interface button.
@@ -9,7 +9,7 @@
 * Create a 'demo' build flavor with only basic functions available for both screen orientations. User should be able to have both 'demo' and 'full' versions on device at the same time.
 * Topics to cover: activities, fragments, views, controls, basic app architecture, product flavors.
 
-##2. Gotta note them all!
+## 2. Gotta note them all!
 * Create 'Notes' application. (see Google Keep for reference).
 * App should show a list or a grid of created notes depending on screen orientation (list for portrait and grid for landscape).
 * Each note should consist of title, body and tag list. Title may not be empty. If user left it out empty, a current date should be used * instead. Tag list may be empty.
@@ -18,7 +18,7 @@
 * Try to use components from google material design. Take a look at android app architecture guides across internet to avoid common pitfalls.
 * Topics to cover: activity lifecycle, fragment lifecycle, data storage, app architecture.
 
-##3. Yet another feed
+## 3. Yet another feed
 * Create RSS reader application (see Flipboard for reference).
 * On first launch app asks user to type in RSS feed URL. This can be changed later.
 * RSS entities are displayed within list view. EAch entity should contain date, title, preview of content and an image (if provided by feed source).
