@@ -1,4 +1,4 @@
-# rss_reader
+# Widget_cards
 
 A new Flutter project.
 
